@@ -11,4 +11,5 @@ adjacency_matrix = [
 
 mst_calculator = MinimalMST(adjacency_matrix)
 mst_edges = mst_calculator.create_mMST_by_Kruskal()
-Visualizer.draw_mst(mst_edges)
+Visualizer.draw_mst_to_terminal(mst_edges)
+Visualizer.draw_mst_to_window(mst_edges, len(adjacency_matrix))
